@@ -10,5 +10,14 @@
       "url": "https://laravel.hitcheed.com"
     }
   ],
-  "paths": {}
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "/",
+        "tags": [],
+        "responses": {},
+        "description": "Get all users"
+      }
+    }
+  }
 }
