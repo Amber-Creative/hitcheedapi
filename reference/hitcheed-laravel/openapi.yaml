@@ -5,9 +5,19 @@ info:
 servers:
   - url: 'https://laravel.hitcheed.com/api/v1'
 paths:
+  '/professionals/{id}':
+    parameters:
+      - type: string
+        name: id
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
   /professionals:
     get:
-      summary: /
+      summary: Your GET endpoint
       tags: []
       responses: {}
 components:
