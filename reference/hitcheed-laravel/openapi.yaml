@@ -12,12 +12,12 @@ paths:
         in: path
         required: true
     get:
-      summary: Your GET endpoint
+      summary: Get Professionals
       tags: []
       responses: {}
   /professionals:
     get:
-      summary: Your GET endpoint
+      summary: Get All Professionals
       tags: []
       responses: {}
 components:
