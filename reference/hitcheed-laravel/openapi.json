@@ -2,22 +2,22 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Hitcheed Laravel",
-    "version": "1.0",
-    "description": ""
+    "version": "1.0"
   },
   "servers": [
     {
-      "url": "https://laravel.hitcheed.com"
+      "url": "https://hitcheed.laravel.com/api/v1"
     }
   ],
   "paths": {
-    "/users": {
+    "/professionals": {
       "get": {
         "summary": "/",
         "tags": [],
         "responses": {},
-        "description": "Get all users"
-      }
+        "description": ""
+      },
+      "parameters": []
     }
   }
 }
