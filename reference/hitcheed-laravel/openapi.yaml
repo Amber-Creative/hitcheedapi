@@ -20,5 +20,10 @@ paths:
       summary: Get All Professionals
       tags: []
       responses: {}
+  /users:
+    get:
+      summary: Get Users
+      tags: []
+      responses: {}
 components:
   schemas: {}
