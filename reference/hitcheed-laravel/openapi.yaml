@@ -122,5 +122,16 @@ paths:
       tags: []
       responses: {}
       description: Get all the professionals with category id
+  /attendance:
+    get:
+      summary: Check Event Attendance
+      tags: []
+      responses: {}
+      description: Check for event attendance
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: phoneNumber
 components:
   schemas: {}
